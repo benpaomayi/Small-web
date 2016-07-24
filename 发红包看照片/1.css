@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+   padding:0;
+	}
+#blur-div{width:800px;
+             height:500px;
+			 margin:0 auto;
+			 border:#936 solid; 
+			 position:relative;
+	
+	}
+#blur-image{ display:block; 
+        width:800px;
+		height:500px;
+	      margin:0 auto;
+		 filter:blur(20px);
+		  -webkit-filter:blur(20px);
+		  -moz-filter:blur(20px);
+		  -ms-filter:blur(20px);
+		  -o-filter:blur(20px);
+		position:absolute;
+		left:0px;
+		top:0px;
+        z-index:0;
+	}
+#canvas{
+	display:block;
+	position:absolute;
+	margin:0 auto;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:100;
+	}
+.button{position:absolute;
+        display:block;
+		z-index:200;
+		
+		width:100px;
+		height:30px;
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		line-height:30px;
+		border-radius:5px;
+	
+	}
+#rest-button{
+	background-color:#06F;
+	left:200px;
+	bottom:20px;
+	}	
+#rest-button:hover{
+	background-color:#09F;
+	}
+	
+#show-button{
+	background-color:#399;
+	right:200px;
+	bottom:20px;
+	}	
+#show-button:hover{
+	background-color:#3FC;
+	}	
